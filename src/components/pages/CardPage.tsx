@@ -3,6 +3,22 @@
 import { motion } from 'framer-motion';
 import { CardPageConfig } from '@/types/page';
 
+// Parse markdown links like [text](url) into JSX
+function renderInlineLinks(text: string) {
+    const parts = text.split(/(\[[^\]]+\]\([^)]+\))/g);
+    return parts.map((part, i) => {
+        const match = part.match(/^\[([^\]]+)\]\(([^)]+)\)$/);
+        if (match) {
+            return (
+                <a key={i} href={match[2]} target="_blank" rel="noopener noreferrer" className="text-accent hover:underline">
+                    {match[1]}
+                </a>
+            );
+        }
+        return part;
+    });
+}
+
 export default function CardPage({ config, embedded = false }: { config: CardPageConfig; embedded?: boolean }) {
     return (
         <motion.div
@@ -29,7 +45,7 @@ export default function CardPage({ config, embedded = false }: { config: CardPag
                         className={`bg-white dark:bg-neutral-900 ${embedded ? "p-4" : "p-6"} rounded-xl shadow-sm border border-neutral-200 dark:border-neutral-800 hover:shadow-lg transition-all duration-200 hover:scale-[1.01]`}
                     >
                         <div className="flex justify-between items-start mb-2">
-                            <h3 className={`${embedded ? "text-lg" : "text-xl"} font-semibold text-primary`}>{item.title}</h3>
+                            <h3 className={`${embedded ? "text-lg" : "text-xl"} font-semibold text-primary`}>{renderInlineLinks(item.title)}</h3>
                             {item.date && (
                                 <span className="text-sm text-neutral-500 font-medium bg-neutral-100 dark:bg-neutral-800 px-2 py-1 rounded">
                                     {item.date}

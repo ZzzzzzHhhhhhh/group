@@ -3,50 +3,30 @@ title = "成员"
 description = "我们的研究团队。"
 
 [[items]]
-title = "PI 教授"
+title = "[王智教授](https://www.mmlab.top/)"
 subtitle = "课题组负责人"
 date = ""
-content = "MMLab 教授。研究方向：高效深度学习、具身智能、计算机视觉。"
+content = "邮箱：wangzhi@sz.tsinghua.edu.cn"
 tags = ["教师"]
 
 [[items]]
-title = "张博士"
-subtitle = "博士后研究员"
-date = "2024 - 至今"
-content = "清华大学博士。研究方向：模型压缩与神经架构搜索。"
-tags = ["博士后"]
+title = "[孟媛](https://mengyuan404.github.io/)"
+subtitle = "教师"
+date = ""
+content = "邮箱：yuanmeng@tsinghua.edu.cn"
+tags = ["教师"]
 
 [[items]]
-title = "王同学"
+title = "[李也](https://scholar.google.com/citations?user=Nof6bfUAAAAJ)"
 subtitle = "博士生"
-date = "2023 - 至今"
-content = "研究方向：面向机器人操作的视觉-语言-动作模型。"
+date = ""
+content = "邮箱：liye23@mails.tsinghua.edu.cn"
 tags = ["博士生"]
 
+
 [[items]]
-title = "李同学"
+title = "[季康烨](https://ky-ji.github.io)"
 subtitle = "博士生"
-date = "2024 - 至今"
-content = "研究方向：大规模基础模型的高效训练策略。"
+date = ""
+content = "邮箱：jky25@mails.tsinghua.edu.cn"
 tags = ["博士生"]
-
-[[items]]
-title = "陈同学"
-subtitle = "硕士生"
-date = "2025 - 至今"
-content = "研究方向：具身导航与多模态推理。"
-tags = ["硕士生"]
-
-[[items]]
-title = "刘同学"
-subtitle = "硕士生"
-date = "2025 - 至今"
-content = "研究方向：视觉 Transformer 的知识蒸馏。"
-tags = ["硕士生"]
-
-[[items]]
-title = "吴同学"
-subtitle = "研究实习生"
-date = "2025 - 至今"
-content = "北京大学本科生。研究方向：大语言模型的高效部署。"
-tags = ["实习生"]

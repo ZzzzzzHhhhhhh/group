@@ -1,0 +1,52 @@
+type = "card"
+title = "Members"
+description = "Our team of researchers and students."
+
+[[items]]
+title = "Prof. Example PI"
+subtitle = "Principal Investigator"
+date = ""
+content = "Professor at MMLab. Research interests: efficient deep learning, embodied AI, computer vision."
+tags = ["Faculty"]
+
+[[items]]
+title = "Dr. Alice Zhang"
+subtitle = "Postdoctoral Researcher"
+date = "2024 - Present"
+content = "PhD from Tsinghua University. Research focus: model compression and neural architecture search."
+tags = ["Postdoc"]
+
+[[items]]
+title = "Bob Wang"
+subtitle = "PhD Student"
+date = "2023 - Present"
+content = "Research focus: vision-language-action models for robotic manipulation."
+tags = ["PhD Student"]
+
+[[items]]
+title = "Carol Li"
+subtitle = "PhD Student"
+date = "2024 - Present"
+content = "Research focus: efficient training strategies for large-scale foundation models."
+tags = ["PhD Student"]
+
+[[items]]
+title = "David Chen"
+subtitle = "Master Student"
+date = "2025 - Present"
+content = "Research focus: embodied navigation and multi-modal reasoning."
+tags = ["Master Student"]
+
+[[items]]
+title = "Eva Liu"
+subtitle = "Master Student"
+date = "2025 - Present"
+content = "Research focus: knowledge distillation for vision transformers."
+tags = ["Master Student"]
+
+[[items]]
+title = "Frank Wu"
+subtitle = "Research Intern"
+date = "2025 - Present"
+content = "Undergraduate from Peking University. Working on efficient deployment of LLMs."
+tags = ["Intern"]

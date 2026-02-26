@@ -1,7 +1,19 @@
 [[news]]
+date = "2026-02"
+content = "Our paper on efficient embodied agents has been accepted by CVPR 2026 🎉"
+
+[[news]]
+date = "2026-01"
+content = "Welcome new PhD students joining our group this semester!"
+
+[[news]]
 date = "2025-11"
-content = "Our work has been accepted by a prestigious journal 🎉"
+content = "We release EmbodiedBench, a comprehensive benchmark for embodied AI agents."
 
 [[news]]
 date = "2025-09"
-content = "Starting my PhD at the University of Example"
+content = "Two papers accepted at NeurIPS 2025."
+
+[[news]]
+date = "2025-06"
+content = "Our group received the Outstanding Research Award from MMLab."

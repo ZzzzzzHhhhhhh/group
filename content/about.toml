@@ -1,11 +1,13 @@
 type = "about"
-title = "About"
+title = "Home"
 
 [profile]
 research_interests = [
-  "Computational Physics",
-  "Mathematical Principles",
-  "Proof of Theorems"
+  "Efficient Deep Learning",
+  "Embodied AI",
+  "Model Compression & Acceleration",
+  "Vision-Language Models",
+  "Robotics & Embodied Agents"
 ]
 
 [[sections]]
@@ -26,4 +28,3 @@ id = "news"
 type = "list"
 title = "News"
 source = "news.toml"
-

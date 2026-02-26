@@ -1,5 +1,10 @@
-I am a PhD student at the School of Science, University of Example, advised by [Prof. Advisor One](https://example.com) and [Dr. Advisor Two](https://example.com).
+Welcome to the **Efficient Deep Learning and Embodiment Group** at [MMLab](https://mmlab.ie.cuhk.edu.hk/).
 
-Prior to this, I obtained a BSc degree with First Class Honours in Natural Science from the University of Example.
+Our group focuses on developing efficient deep learning methods and their applications in embodied AI systems. We aim to bridge the gap between powerful deep learning models and real-world deployment on resource-constrained platforms, including robots and edge devices.
 
-My current research focuses on investigating the mathematical principles of natural philosophy.
+Our research spans several key areas:
+- **Efficient Deep Learning**: model compression, neural architecture search, knowledge distillation, and efficient training strategies
+- **Embodied AI**: vision-language-action models, robotic manipulation, navigation, and multi-modal reasoning for embodied agents
+- **Foundation Models**: efficient adaptation and deployment of large-scale vision and language models
+
+We are actively looking for self-motivated students and researchers to join our team. If you are interested, please feel free to [contact us](mailto:group@example.com).

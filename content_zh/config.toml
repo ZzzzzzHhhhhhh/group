@@ -1,25 +1,37 @@
 [site]
-title = "刘嘉乐"
-description = "某某大学博士生个人主页。"
-last_updated = "2025年11月18日"
+title = "高效深度学习与具身智能课题组"
+description = "MMLab 研究课题组，专注于高效深度学习与具身智能。"
+last_updated = "2026年2月"
 
 [author]
-name = "刘嘉乐"
-title = "博士生"
-institution = "某某大学"
+name = "高效深度学习与具身智能课题组"
+title = "研究课题组"
+institution = "MMLab"
 
 [social]
-location = "城市，国家"
+location = "深圳，中国"
 location_details = [
-  "理科楼 123 室，",
-  "大学路，城市，国家"
+  "MMLab，",
+  "深圳，中国"
 ]
 
 [[navigation]]
-title = "关于我"
+title = "首页"
 type = "page"
 target = "about"
 href = "/"
+
+[[navigation]]
+title = "成员"
+type = "page"
+target = "members"
+href = "/members"
+
+[[navigation]]
+title = "研究方向"
+type = "page"
+target = "research"
+href = "/research"
 
 [[navigation]]
 title = "论文"
@@ -28,25 +40,7 @@ target = "publications"
 href = "/publications"
 
 [[navigation]]
-title = "教学"
+title = "动态"
 type = "page"
-target = "teaching"
-href = "/teaching"
-
-[[navigation]]
-title = "奖项"
-type = "page"
-target = "awards"
-href = "/awards"
-
-[[navigation]]
-title = "服务"
-type = "page"
-target = "services"
-href = "/services"
-
-[[navigation]]
-title = "简历"
-type = "page"
-target = "cv"
-href = "/cv"
+target = "news_page"
+href = "/news_page"

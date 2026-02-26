@@ -1,18 +1,20 @@
 type = "about"
-title = "关于我"
+title = "首页"
 
 [profile]
 research_interests = [
-  "计算物理",
-  "数学原理",
-  "定理证明"
+  "高效深度学习",
+  "具身智能",
+  "模型压缩与加速",
+  "视觉语言模型",
+  "机器人与具身智能体"
 ]
 
 [[sections]]
 id = "about"
 type = "markdown"
 source = "bio.md"
-title = "关于我"
+title = "关于我们"
 
 [[sections]]
 id = "featured_publications"
@@ -24,5 +26,5 @@ limit = 5
 [[sections]]
 id = "news"
 type = "list"
-title = "动态"
+title = "最新动态"
 source = "news.toml"

@@ -1,3 +1,85 @@
+@inproceedings{ji2026testtime,
+  selected={true},
+  title = {Test-time Sparsity for Extreme Fast Action Diffusion},
+  author = {Kangye Ji and Jianbo Zhou and Yuan Meng and Ye Li and Chen Tang and Zhi Wang},
+  year = {2026},
+  booktitle = {IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  pdf = {https://openreview.net/pdf?id=e2rXzov882},
+  preview={SAG2.png},
+  description={A test-time sparsity method for accelerating action diffusion models to achieve extreme fast inference.},
+  keywords={Diffusion Policy, Sparsity, Embodied AI, Action Generation}
+}
+
+@inproceedings{li2026spvla,
+  selected={true},
+  title = {SP-VLA: A Joint Model Scheduling and Token Pruning Approach for VLA Model Acceleration},
+  author = {Ye Li and Yuan Meng and Zewen Sun and Kangye Ji and Chen Tang and Jiajun Fan and Xinzhu Ma and Shutao Xia and Zhi Wang and Wenwu Zhu},
+  year = {2026},
+  booktitle = {International Conference on Learning Representations (ICLR)},
+  pdf = {https://arxiv.org/pdf/2506.12723},
+  preview={SP-VLA.png},
+  description={A joint model scheduling and token pruning approach for accelerating Vision-Language-Action models.},
+  keywords={VLA, Token Pruning, Model Scheduling, Efficient Inference}
+}
+
+@inproceedings{ji2026bac,
+  selected={true},
+  title = {Block-wise Adaptive Caching for Accelerating Diffusion Policy},
+  author = {Kangye Ji and Yuan Meng and Hanyun Cui and Ye Li and Jianbo Zhou and Shengjia Hua and Lei Chen and Zhi Wang},
+  year = {2026},
+  booktitle = {International Conference on Learning Representations (ICLR)},
+  pdf = {https://arxiv.org/pdf/2506.13456},
+  code = {https://github.com/ky-ji/BAC.git},
+  preview={BAC.png},
+  description={A block-wise adaptive caching approach for accelerating diffusion policy inference.},
+  keywords={Diffusion Policy, Caching, Embodied AI, Efficient Inference}
+}
+
+@article{li2025prance,
+  selected={true},
+  title={Prance: Joint token-optimization and structural channel-pruning for adaptive vit inference},
+  author={Li, Ye and Tang, Chen and Meng, Yuan and Fan, Jiajun and Chai, Zenghao and Ma, Xinzhu and Wang, Zhi and Zhu, Wenwu},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)},
+  year={2025},
+  publisher={IEEE},
+  preview={Prance.png},
+  description={A joint token-optimization and structural channel-pruning approach for adaptive vit inference.},
+  code={https://github.com/ChildTang/PRANCE},
+  keywords={Vision Transformer, Token Pruning, Structural Channel Pruning, Efficient Inference}
+}
+
+@article{li2025ts,
+  title={TS-DP: Reinforcement Speculative Decoding For Temporal Adaptive Diffusion Policy Acceleration},
+  author={Li, Ye and Feng, Jiahe and Meng, Yuan and Ji, Kangye and Tang, Chen and Wen, Xinwan and Xia, Shutao and Wang, Zhi and Zhu, Wenwu},
+  journal={arXiv preprint},
+  year={2025},
+  preview={TS-DP.png},
+  pdf={https://arxiv.org/pdf/2512.15773},
+  description={A reinforcement speculative decoding method for temporal adaptive diffusion policy acceleration.},
+  keywords={Diffusion Policy, Reinforcement Learning, Speculative Decoding, Efficient Inference}
+}
+
+@article{ji2025sparseactiongen,
+  title = {Sparse ActionGen: Accelerating Diffusion Policy with Real-time Pruning},
+  author = {Kangye Ji and Yuan Meng and Jianbo Zhou and Ye Li and Hanyun Cui and Zhi Wang},
+  year = {2025},
+  journal = {arXiv preprint},
+  pdf = {https://arxiv.org/pdf/2601.12894},
+  preview={SAG.png},
+  description={A real-time pruning method for accelerating diffusion policy in embodied AI.},
+  keywords={Diffusion Policy, Pruning, Embodied AI, Action Generation}
+}
+
+@article{liu2025spatialpolicy,
+  title = {Spatial Policy: Guiding Visuomotor Robotic Manipulation with Spatial-Aware Modeling and Reasoning},
+  author = {Yijun Liu and Yuwei Liu and Yuan Meng and Jieheng Zhang and Yuwei Zhou and Ye Li and Jiacheng Jiang and Kangye Ji and Shijia Ge and Zhi Wang and Wenwu Zhu},
+  year = {2025},
+  journal = {arXiv preprint},
+  pdf = {https://arxiv.org/pdf/2508.15874},
+  description={A unified spatial-aware visuomotor robotic manipulation framework via explicit spatial modeling and reasoning, achieving over 33\% improvement on Meta-World and over 25\% improvement on iTHOR.},
+  keywords={Robotics, Embodied AI, Spatial Reasoning, Visuomotor Control}
+}
+
 @article{prance2025,
   title = {PRANCE: Joint Token-Optimization and Structural Channel-Pruning for Adaptive ViT Inference},
   author = {},
@@ -6,7 +88,7 @@
   pdf = {https://arxiv.org/abs/2407.05010},
   code = {https://github.com/ChildTang/PRANCE},
   preview = {prance.png},
-  description = {联合 token 优化与结构剪枝；样本级动态决策 token 数量与通道配置；Result-to-Go 让奖励更稠密、收敛更稳。ImageNet 上仅保留约 10\% token 仍保持无损 Top-1，FLOPs 平均减少超过一倍。},
+  description = {Joint token optimization and structural channel pruning with sample-level adaptive token counts and channel configuration; Result-to-Go provides denser rewards for more stable convergence. On ImageNet, keeps about 10\% tokens with no Top-1 drop and more than 2x FLOPs reduction.},
   keywords = {Vision Transformer, Token Pruning, Channel Pruning, Efficient Inference}
 }
 
@@ -18,7 +100,7 @@
   pdf = {https://arxiv.org/pdf/2406.17343},
   code = {https://github.com/Juanerx/Q-DiT},
   preview = {q-dit.png},
-  description = {解决 DiT 量化中\"通道/维度方差大\"和\"激活随扩散步数动态变化\"两大难点；提出自动粒度分配 + 动态量化。W6A8 下无损量化；相对现有 SOTA，FID 下降约 20\%。},
+  description = {Addresses large channel/dimension variance and step-dependent activation shifts in DiT quantization; proposes automatic granularity assignment and dynamic quantization. Achieves lossless W6A8 and about 20\% lower FID than prior SOTA.},
   keywords = {Diffusion Transformer, Post-Training Quantization, Efficient Inference}
 }
 
@@ -29,7 +111,7 @@
   year = {2025},
   pdf = {https://arxiv.org/pdf/2501.05339},
   preview = {aaai2025.png},
-  description = {联合优化网络结构、超低混合精度位宽与加速器架构；通道级稀疏量化缓解显存，硬件生成网络加速搜索。},
+  description = {Jointly optimizes network architecture, ultra-low mixed precision, and accelerator design; channel-level sparse quantization reduces memory, and hardware-generated networks accelerate search.},
   keywords = {Neural Architecture Search, Mixed Precision, Hardware-Software Co-Design}
 }
 
@@ -41,7 +123,7 @@
   pdf = {https://arxiv.org/pdf/2401.01543.pdf},
   code = {https://github.com/1hunters/retraining-free-quantization},
   preview = {rf-quant.png},
-  description = {分析位宽干扰，提出位宽调度器 + 对齐策略提升稳定性；无需重训练，性能超过已有方法。},
+  description = {Analyzes bit-width interference and introduces a bit-width scheduler with alignment to improve stability; achieves strong accuracy without retraining.},
   keywords = {Quantization, One-Shot, Efficient Inference}
 }
 
@@ -52,7 +134,7 @@
   year = {2024},
   pdf = {https://arxiv.org/pdf/2404.05639.pdf},
   preview = {adv-robust.png},
-  description = {定义量化流水线并拆解组件，明确不同量化组件对对抗防御的影响。},
+  description = {Defines a quantization pipeline and decomposes components to analyze their effects on adversarial robustness.},
   keywords = {Quantization, Adversarial Robustness}
 }
 
@@ -64,7 +146,7 @@
   pdf = {https://arxiv.org/pdf/2303.09730.pdf},
   code = {https://github.com/microsoft/Moonlit/tree/main/ElasticViT},
   preview = {elasticvit.png},
-  description = {端上推理速度最高提升 2x。},
+  description = {Achieves up to 2x on-device inference speed across diverse mobile devices.},
   keywords = {Vision Transformer, Mobile Deployment, Efficient Inference}
 }
 
@@ -75,7 +157,7 @@
   year = {2022},
   pdf = {https://arxiv.org/pdf/2204.09992.pdf},
   preview = {abn.png},
-  description = {相较高度压缩模型，最高节省 10\%-15\% 计算资源。},
+  description = {Saves 10\%-15\% compute compared with highly compressed models.},
   keywords = {Quantization, Adaptive Inference}
 }
 
@@ -87,7 +169,7 @@
   pdf = {https://arxiv.org/pdf/2203.08368.pdf},
   code = {https://github.com/1hunters/LIMPQ},
   preview = {limpq.png},
-  description = {位宽策略搜索效率最高提速约 300x。},
+  description = {Layer-wise importance yields mixed-precision policy search up to about 300x faster.},
   keywords = {Mixed Precision, Quantization}
 }
 
@@ -98,7 +180,7 @@
   year = {2023},
   pdf = {https://arxiv.org/pdf/2302.06845.pdf},
   preview = {seam.png},
-  description = {通过大间隔正则搜索可迁移混合精度量化策略。},
+  description = {Searches transferable mixed-precision policies using large-margin regularization.},
   keywords = {Mixed Precision, Quantization Policy}
 }
 
@@ -109,16 +191,6 @@
   journal = {arXiv preprint},
   pdf = {https://arxiv.org/pdf/2404.09532.pdf},
   preview = {tmpqdm.png},
-  description = {5 个数据集上实现 >10x BitOPs 节省，同时保持相同生成性能。},
+  description = {Achieves more than 10x BitOPs savings on five datasets while maintaining generation quality.},
   keywords = {Diffusion Model, Timestep Reduction, Quantization}
-}
-
-@article{liu2025spatialpolicy,
-  title = {Spatial Policy: Guiding Visuomotor Robotic Manipulation with Spatial-Aware Modeling and Reasoning},
-  author = {Yijun Liu and Yuwei Liu and Yuan Meng and Jieheng Zhang and Yuwei Zhou and Ye Li and Jiacheng Jiang and Kangye Ji and Shijia Ge and Zhi Wang and Wenwu Zhu},
-  year = {2025},
-  journal = {arXiv preprint},
-  pdf = {https://arxiv.org/pdf/2508.15874},
-  description={A unified spatial-aware visuomotor robotic manipulation framework via explicit spatial modeling and reasoning, achieving over 33\% improvement on Meta-World and over 25\% improvement on iTHOR.},
-  keywords={Robotics, Embodied AI, Spatial Reasoning, Visuomotor Control}
 }

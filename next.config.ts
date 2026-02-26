@@ -5,6 +5,9 @@ const nextConfig: NextConfig = {
   trailingSlash: true,
   basePath: "/group",
   assetPrefix: "/group",
+  env: {
+    NEXT_PUBLIC_BASE_PATH: "/group",
+  },
   images: {
     unoptimized: true,
   },
